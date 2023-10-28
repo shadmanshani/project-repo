@@ -1,0 +1,457 @@
+/* MEDIA FOR SCREEN 375PX */
+
+/* for header section */
+@media(max-width: 375px) {
+	h1 {
+		font-size: 3.8rem;
+		line-height: 6rem;
+		margin-bottom: 3rem;
+	}
+
+	h2 {
+		font-size: 2.8rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+		font-weight: 500;
+	}
+
+	a {
+		font-size: 1.4rem;
+		font-weight: 500;
+	}
+
+	p {
+		font-size: 1.4rem;
+		line-height: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.container {
+		padding: 2.5rem;
+	}
+
+	.header .nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1.8rem 0;
+	}
+
+	.header .nav .group .search-bar {
+		display: none;
+	}
+
+	.header .nav .group a {
+		display: none;
+	}
+
+	.header .nav .group img {
+		display: none;
+	}
+
+	.header .nav .menu {
+		display: none;
+	}
+
+	.header .nav .group .bx-menu {
+		display: inline-block;
+		font-size: 4rem;
+	}
+}
+
+/* for section-1 */
+@media(max-width: 375px) {
+	.section-1 .content-1 {
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.section-1 .content-1 .left-content {
+		margin-top: -8rem;
+		width: 35rem;
+		order: 2;
+	}
+
+	.section-1 .content-1 .left-content h1::after {
+		content: '';
+		background-image: url("img/potatobowl.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 6rem;
+		height: 6rem;
+		position: absolute;
+		bottom: -1rem;
+		right: 27rem;
+	}
+
+	.section-1 .content-1 .right-content {
+		width: 35rem;
+		height: 40rem;
+		position: relative;
+		margin-left: -1.5rem;
+	}
+
+	.section-1 .content-1 .right-content img {
+		width: 80%;
+		height: 80%;
+	}
+
+	.section-1 .content-1 .left-content h1::after {
+		content: '';
+		background-image: url("img/potatobowl.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 4rem;
+		height: 4rem;
+		position: absolute;
+		bottom: 0.3rem;
+		right: 18rem;
+	}
+
+	.section-1 .content-1 .left-content p {
+		text-align: justify;
+	}
+
+	.section-1 .content-1 .right-content::before {
+		content: '';
+		background-image: url("img/sticker-3.png");
+		background-repeat: no-repeat;
+		width: 17rem;
+		height: 25rem;
+		position: absolute;
+		top: -6rem;
+		right: -3rem;
+		z-index: -1;
+	}
+
+	.section-1 .content-1 .right-content::after {
+		content: '';
+		background-image: url("img/sticker-1.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 8rem;
+		height: 10rem;
+		position: absolute;
+		bottom: 7.5rem;
+		right: 5.5rem;
+	}
+
+}
+
+/* for section-2 */
+@media(max-width: 375px) {
+	.section-2 .features {
+		padding: 4rem 0;
+	}
+
+	.section-2 .features h2 {
+		font-size: 2.3rem;
+		margin-bottom: -4rem;
+	}
+
+	.section-2 .features .content-2 {
+		flex-direction: column;
+		align-items: center;
+		gap: 2 0rem;
+	}
+
+	.section-2 .features .content-2 .leftside::before {
+		content: '';
+		background-image: url('img/packet2.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 22rem;
+		height: 35rem;
+		position: absolute;
+		top: -3rem;
+		left: 7rem;
+	}
+
+	.section-2 .features .content-2 .leftside::after {
+		content: '';
+		background-image: url('img/burger.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 14rem;
+		height: 17rem;
+		position: absolute;
+		top: 9.5rem;
+		left: 1rem;
+	}
+
+	.section-2 .features .content-2 .rightside::before {
+		background-size: contain;
+		width: 10rem;
+		height: 5rem;
+		right: 0rem;
+		top: -50rem;
+	}
+
+	.section-2 .features .content-2 .leftside {
+		width: 35rem;
+		height: 30rem;
+	}
+
+	.section-2 .features .content-2 .rightside {
+		width: 35rem;
+		margin-top: -4rem;
+	}
+
+}
+
+/* for section-3 */
+@media(max-width: 375px) {
+	.section-3 .product .top-part {
+		text-align: center;
+		margin-bottom: 12rem;
+	}
+
+	.section-3 .product .top-part p {
+		font-size: 1.5rem;
+	}
+
+	.section-3 .product .down-part {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto auto auto auto;
+	}
+
+	.section-3 .product .down-part .item {
+		margin-bottom: 3rem;
+	}
+
+	.section-3 .product .down-part .bg {
+		background-image: url('img/green-circle.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 32rem;
+		height: 30rem;
+		position: relative;
+		background-color: #F8FFE3;
+		border-radius: 1rem;
+		border: none;
+	}
+
+	.section-3 .product .down-part .bg::before {
+		width: 28em;
+		height: 30rem;
+		background-size: contain;
+		top: -9rem;
+		left: 5rem;
+	}
+
+	.section-3 .product .down-part .item-1::before {
+		content: '';
+		background-image: url('img/green-packet.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 28em;
+		height: 30rem;
+		position: absolute;
+		top: -7rem;
+		left: 3rem;
+	}
+
+	.section-3 .product .down-part .item-5::before {
+		content: '';
+		background-image: url('img/blue-packet.png');
+		background-repeat: no-repeat;
+		width: 28em;
+		height: 30rem;
+		position: absolute;
+		top: -7rem;
+		left: 3rem;
+	}
+}
+
+/* for section-4 */
+@media(max-width: 375px) {
+	.section-4 .videos {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.section-4 .videos .box-1 {
+		width: 35rem;
+		height: 30rem;
+	}
+
+	.section-4 .videos .box-1::before {
+		content: '';
+		background-image: url('img/ming.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 22rem;
+		height: 38rem;
+		position: absolute;
+		top: -9rem;
+		left: 7rem;
+	}
+
+	.section-4 .videos .box-2 {
+		width: 33rem;
+		height: 22rem;
+		margin-top: 5rem;
+	}
+
+	.section-4 .videos .box-2::before {
+		content: '';
+		background-image: url('img/red-packet.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 21rem;
+		height: 30rem;
+		position: absolute;
+		top: -8rem;
+		left: 6rem;
+	}
+}
+
+.section-4 h2 {
+	position: static;
+	text-align: left;
+	font-size: 3rem;
+}
+
+.section-4 .videos .box {
+	margin-top: 4rem;
+}
+
+/* for section-5 */
+@media(max-width: 375px) {
+	.section-5 .testimonial {
+		padding: 14rem 0;
+		flex-direction: column;
+		align-items: center;
+		gap: 10rem;
+	}
+
+	.section-5 .testimonial .my-details {
+		order: 2;
+	}
+
+	.section-5 .testimonial .my-details p {
+		padding-top: 7rem;
+		font-size: 1.6rem;
+		font-style: italic;
+		line-height: 3rem;
+		position: relative;
+	}
+
+	.section-5 .testimonial .my-details .myinfo {
+		margin-bottom: -10rem;
+	}
+
+	.section-5 .testimonial .my-details .myinfo h2 {
+		font-size: 2.4rem;
+	}
+
+	.section-5 .testimonial .my-details .myinfo p {
+		font-size: 1.2rem;
+		margin-top: -4rem;
+	}
+
+	.section-5 .testimonial .my-details .myinfo .last-line .line h3 {
+		font-size: 2rem;
+	}
+
+	.section-5 .testimonial .my-details .myinfo .last-line {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 3rem;
+
+	}
+
+	.section-5 .testimonial .my-profile img {
+		width: 35rem;
+		height: 40rem;
+	}
+}
+
+/* for section-6*/
+@media(max-width: 576px) {
+	.section-6 .content-4 p {
+		margin-top: 2rem;
+		margin-bottom: 3rem;
+		font-size: 1.2rem;
+	}
+}
+
+/* for section-5 */
+@media(max-width: 375px) {
+	.section-5 .testimonial {
+		padding: 14rem 0;
+		flex-direction: column;
+		align-items: center;
+		gap: 10rem;
+	}
+
+	.section-5 .testimonial .my-details {
+		order: 2;
+	}
+
+	.section-5 .testimonial .my-details p {
+		padding-top: 7rem;
+		font-size: 1.6rem;
+		font-style: italic;
+		line-height: 3rem;
+		position: relative;
+	}
+}
+
+/* for section-6*/
+@media(max-width: 375px) {
+	.section-6 .content-4 p {
+		margin-top: 2rem;
+		margin-bottom: 3rem;
+		font-size: 1.2rem;
+	}
+}
+
+/* for footer */
+@media(max-width: 375px) {
+	.footer .content-5 {
+		padding: 8rem 0;
+		flex-direction: column;
+		align-items: center;
+		gap: 15rem;
+	}
+
+	.footer .content-5 .last-nav {
+		order: 2;
+	}
+
+	.footer .content-5 .last-nav p {
+		font-size: 1.5rem;
+		margin-top: 3rem;
+	}
+
+	.footer .content-5 .last-nav h3 {
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+
+	.footer .content-5 .last-nav .logo {
+		margin-left: -1rem;
+	}
+
+	.footer .content-5 .last-nav .logo img {
+		width: 5rem;
+		height: 5rem;
+
+	}
+
+	.footer .content-5 .last-nav .menu {
+		flex-direction: column;
+		margin-bottom: 5rem;
+	}
+
+	.footer .content-5 .sidepart img {
+		width: 35rem;
+		height: 30rem;
+	}
+}
